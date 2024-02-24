@@ -95,3 +95,10 @@ body{
     border-top-left-radius: 50px;
     box-shadow: -15px -15px 0px 15px #3c2846;
 }
+@media screen and (max-width: 600px) {
+    .card {
+        width: calc(100% - 60px);
+        margin: 15px;
+
+    }
+}
